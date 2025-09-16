@@ -1,0 +1,11 @@
+com.12345678.nahamstore.com
+dev.12345678.nahamstore.com
+fls.12345678.nahamstore.com
+s3.12345678.nahamstore.com
+staging.12345678.nahamstore.com
+test.12345678.nahamstore.com
+am.12345678.nahamstore.com
+06.12345678.nahamstore.com
+metric.12345678.nahamstore.com
+1024w.12345678.nahamstore.com
+0-240.12345678.nahamstore.com

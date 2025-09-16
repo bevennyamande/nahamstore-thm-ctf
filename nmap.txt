@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Mon Sep 15 22:27:10 2025 as: /usr/lib/nmap/nmap -p- --open -vvv -oN nmap.txt --min-rate 3000 -Pn 10.10.91.52
+Nmap scan report for nahamstore.thm (10.10.91.52)
+Host is up, received user-set (1.7s latency).
+Scanned at 2025-09-15 22:27:10 SAST for 42s
+Not shown: 47373 closed tcp ports (reset), 18159 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  REASON
+22/tcp   open  ssh      syn-ack ttl 63
+80/tcp   open  http     syn-ack ttl 63
+8000/tcp open  http-alt syn-ack ttl 62
+
+Read data files from: /usr/share/nmap
+# Nmap done at Mon Sep 15 22:27:52 2025 -- 1 IP address (1 host up) scanned in 42.29 seconds

